@@ -45,7 +45,7 @@ Bash can also be used to write *shell scripts*. A shell script is a code file th
 
 #### Executing a Shell Script
 
-In order to execute a shell script, you must first have a shell script. Shell scripts have the suffix `.sh`. The file (`basic_shell_script.sh`)[https://github.com/jbonatakis/bash_101/blob/master/basic_shell_script.sh] is a basic shell script that simply echoes text back to the command line when executed.
+In order to execute a shell script, you must first have a shell script. Shell scripts have the suffix `.sh`. The file [`basic_shell_script.sh`](https://github.com/jbonatakis/bash_101/blob/master/basic_shell_script.sh) is a basic shell script that simply echoes text back to the command line when executed.
 
 Once you have your shell script, you must make sure it is **executable** before it can be executed. This can be done with the `chmod` command like so:
 
