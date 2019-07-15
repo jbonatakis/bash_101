@@ -6,7 +6,7 @@
 2. Click “+ new repl” in top right corner
 	* Select “bash”
 	* “Create repl”
-3. Upload file “make_dirs.sh”
+3. Upload file [make_dirs.sh](https://github.com/jbonatakis/bash_101/blob/master/make_dirs.sh)
 4. Run commands 
 	* `chmod +x make_dirs.sh`
 	* `./make_dirs.sh YOUR_NAME`
