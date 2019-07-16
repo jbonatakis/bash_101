@@ -14,7 +14,7 @@
 
 ### The Command Line and Bash
 
-The **command line** allows you to interact with your operating system via text commands. With these commands you can create, delete, and modify files and folders (known as *directories*), and more. Typically these commands are written with the language **Bash**, although there are alternatives such **zsh**. We will focus solely on Bash. 
+The **command line** allows you to interact with your operating system via text commands. With these commands you can create, delete, and modify files and folders (known as *directories*), manage processes, and more. Typically these commands are written with the language **Bash**, although there are alternatives such as **zsh**. We will focus solely on Bash. 
 
 ### The Basic Commands
 * `pwd` - Lists the **Present Working Directory**

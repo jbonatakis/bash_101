@@ -6,7 +6,16 @@ if [ -f "main.sh" ]; then
 fi
 
 if [ -d "$1" ]; then
-  :
+  if [ -d "Test1" ]; then
+    :
+  else
+    mkdir $1/Test1
+    mkdir $1/Test2
+    mkdir $1/Test3
+    echo 'Created directory:' $1/Test1
+    echo 'Created directory:' $1/Test2
+    echo 'Created directory:' $1/Test3
+  fi
 else
   mkdir $1
   mkdir $1/Test1
@@ -17,5 +26,3 @@ else
   echo 'Created directory:' $1/Test2
   echo 'Created directory:' $1/Test3
 fi
-
-#rm make_dirs.sh
