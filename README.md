@@ -4,6 +4,10 @@
 
 The **command line** allows you to interact with your operating system via text commands. With these commands you can create, delete, and modify files and folders (known as *directories*), manage processes, and more. Typically these commands are written with the language **Bash**, although there are alternatives. We will focus solely on Bash. 
 
+### Why learn to use the Command Line?
+
+
+
 ### Accessing the Command Line
 
 #### Mac
@@ -37,6 +41,10 @@ Windows by default does not have a standard terminal. It has the *power shell*, 
 	* Example 2: `mv text_file.txt new_text_file.txt`
 * `cp` - *Copies* a file from one location to another. 
 	* Example: `cp text_file.txt Documents/text_files/`
+* `>` and `>>` - These operators overwite or append to a file. The single arrow overwrites a file with your specified text. The double arrow appends yours specified text to the end of a file.
+	* Example: 
+		`echo Hello, World! >> tt.tx`
+		`echo Goodbye, world! > tt.txt`
 
 ### Hands On
 
