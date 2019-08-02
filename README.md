@@ -4,6 +4,17 @@
 
 The **command line** allows you to interact with your operating system via text commands. With these commands you can create, delete, and modify files and folders (known as *directories*), manage processes, and more. Typically these commands are written with the language **Bash**, although there are alternatives. We will focus solely on Bash. 
 
+### Accessing the Command Line
+
+#### Mac
+Open Spotlight Search (command + spacebar) and search for `terminal`.
+
+#### Linux
+Directions will vary based on your linux distribution. Some popular ditributions have a built in shortcut to access the terminal: `ctrl + alt + t`. For others you will need to search the system for `terminal`.
+
+#### Windows
+Windows by default does not have a standard terminal. It has the *power shell*, which is similar but not quite the same thing. An alternative would be to install the Windows Subsystem for Linux. For now, your best bet is to use a web based terminal for learning. Or learn to love Linux :)
+
 ### The Basic Commands
 * `pwd` - Lists the **Present Working Directory**
 * `ls` - Lists all files and directories contained within the pwd
