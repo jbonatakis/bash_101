@@ -1,20 +1,8 @@
 ## Bash 101
 
-### Setup
-
-1. Go to https://repl.it/
-2. Click “+ new repl” in top right corner
-	* Select “bash”
-	* “Create repl”
-3. Upload file [make_dirs.sh](https://github.com/jbonatakis/bash_101/blob/master/make_dirs.sh)
-4. Run commands 
-	* `chmod +x make_dirs.sh`
-	* `./make_dirs.sh YOUR_NAME`
-	* `ls`
-
 ### The Command Line and Bash
 
-The **command line** allows you to interact with your operating system via text commands. With these commands you can create, delete, and modify files and folders (known as *directories*), manage processes, and more. Typically these commands are written with the language **Bash**, although there are alternatives such as **zsh**. We will focus solely on Bash. 
+The **command line** allows you to interact with your operating system via text commands. With these commands you can create, delete, and modify files and folders (known as *directories*), manage processes, and more. Typically these commands are written with the language **Bash**, although there are alternatives. We will focus solely on Bash. 
 
 ### The Basic Commands
 * `pwd` - Lists the **Present Working Directory**
@@ -38,6 +26,27 @@ The **command line** allows you to interact with your operating system via text 
 	* Example 2: `mv text_file.txt new_text_file.txt`
 * `cp` - *Copies* a file from one location to another. 
 	* Example: `cp text_file.txt Documents/text_files/`
+
+### Hands On
+
+#### Setup
+
+1. Go to https://repl.it/@JackBonatakis/bash101
+2. Run commands 
+	* `chmod +x make_dirs.sh`
+	* `./make_dirs.sh YOUR_NAME`
+	* `ls`
+
+#### Tasks
+
+1. Take a look at your directories and files
+2. Change to the directory with your name
+3. What directories or files are in this directory?
+4. Create a text file called `my_file.txt`
+5. Add a line of text of your choice to `my_file.txt`
+6. View the contents of `my_file.txt`
+7. Rename `my_file.txt` to `new_file.txt`
+8. Move `new_file.txt` to the directory `Test1`
 
 ### Shell Scripting
 
