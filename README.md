@@ -43,7 +43,7 @@ Windows by default does not have a standard terminal. It has the *power shell*, 
 	* Example: `cp text_file.txt Documents/text_files/`
 * `>` and `>>` - These operators overwite or append to a file. The single arrow overwrites a file with your specified text. The double arrow appends your specified text to the end of a file.
 	* Example: 
-		`echo Hello, World! >> tt.tx`
+		`echo Hello, World! >> tt.txt`
 		`echo Goodbye, world! > tt.txt`
 
 ### Hands On
