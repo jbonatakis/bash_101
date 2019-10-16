@@ -50,11 +50,11 @@ Windows by default does not have a standard terminal. It has the *power shell*, 
 
 #### Setup
 
-1. Go to https://repl.it/@JackBonatakis/bash101
-2. Run commands 
-	* `chmod +x make_dirs.sh`
-	* `./make_dirs.sh YOUR_NAME`
-	* `ls`
+**Run commands**
+
+`chmod +x make_dirs.sh`
+`./make_dirs.sh YOUR_NAME`
+`ls`
 
 #### Tasks
 
