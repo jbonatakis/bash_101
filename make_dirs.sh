@@ -9,20 +9,17 @@ if [ -d "$1" ]; then
   if [ -d "Test1" ]; then
     :
   else
-    mkdir $1/Test1
-    mkdir $1/Test2
-    mkdir $1/Test3
-    echo 'Created directory:' $1/Test1
-    echo 'Created directory:' $1/Test2
-    echo 'Created directory:' $1/Test3
+    mkdir $1/Test1 && echo 'Created directory:' $1/Test1
+    mkdir $1/Test2 && echo 'Created directory:' $1/Test2
+    mkdir $1/Test3 && echo 'Created directory:' $1/Test3
   fi
 else
-  mkdir $1
-  mkdir $1/Test1
-  mkdir $1/Test2
-  mkdir $1/Test3
-  echo 'Created directory:' $1
-  echo 'Created directory:' $1/Test1
-  echo 'Created directory:' $1/Test2
-  echo 'Created directory:' $1/Test3
+  if [ -z $1 ]; then
+    echo -e "No argument supplied\nTry './make_dirs YOUR_NAME'"
+  else
+    mkdir $1 && echo 'Created directory:' $1
+    mkdir $1/Test1 && echo 'Created directory:' $1/Test1
+    mkdir $1/Test2 && echo 'Created directory:' $1/Test2
+    mkdir $1/Test3 && echo 'Created directory:' $1/Test3
+  fi
 fi
